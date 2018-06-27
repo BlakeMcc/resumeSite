@@ -1,0 +1,40 @@
+.nav-line {
+    margin-top: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.nav-name {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2rem;
+}
+
+.nav-list {
+    position: absolute;
+    bottom: 0;
+    margin-left: 4rem;
+    font-size: 1.75rem;
+}
+
+.header-items {
+    color: black;
+    font-family: 'Raleway', sans-serif; 
+    margin-right: 5rem;   
+}
+
+.header-items:hover {
+    border-bottom: solid;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+
+.active {
+    border-bottom: solid;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom-width: 4px;
+    border-bottom-color: grey;
+}
+
