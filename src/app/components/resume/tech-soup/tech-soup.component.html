@@ -1,0 +1,43 @@
+<h2>Technical Experience</h2>
+
+<div class="iconList">
+  <div class="iconSection">
+    Languages and Frameworks
+  </div>
+
+  <div *ngFor="let lang of langs">
+    <div class="iconRow row">
+      <div class="col-1">
+        <img class="techIcon" src="{{lang.src}}">
+      </div>
+      <div class="iconDesc col-3">
+        {{lang.desc}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-8">
+        <hr class="iconLine">
+      </div>
+    </div>
+  </div>
+
+  <div class="iconSection">
+    DevOps Tools
+  </div>
+  <div *ngFor="let devOp of devOps">
+    <div class="iconRow row">
+      <div class="col-1">
+        <img class="techIcon" src="{{devOp.src}}">
+      </div>
+      <div class="iconDesc col-3">
+        {{devOp.desc}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-8">
+        <hr class="iconLine">
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,30 @@
+.techIcon {
+    height: 3rem;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iconRow {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.iconSection {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.iconDesc {
+    font-size: 1.2rem;
+    margin-left: 3rem;
+}
+
+.iconLine {
+    margin-top: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+
+}
